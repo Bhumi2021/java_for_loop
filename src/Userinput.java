@@ -143,16 +143,16 @@ public class Userinput{
     public static void sumofrange(){
         System.out.println("Ans:8");
         Scanner scanner = new Scanner(System.in);//creating scanner class
-        System.out.println("Enter the number");
+        System.out.println("Enter the number between 1 to 20");
         int num=scanner.nextInt();//scanner object
         int sum =0;//declare the variable
         //using for loop condition
-        for (int i = 1; i <=20 ; i++) {
+        for (int i = 1; i <=num ; i++) {
             sum = sum + i;
             System.out.println(" Sum after adding "+ i + " is :" + sum);
         }
         System.out.println();
-        System.out.println("Sum of number till "+ 20 + " is " + sum);
+        System.out.println("Sum of number till "+ num + " is " + sum);
     }
     //Q:9
     //Number between 1 to 100 divided by 3 and 5
